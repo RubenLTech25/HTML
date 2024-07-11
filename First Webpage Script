@@ -1,0 +1,59 @@
+# This is my first webpage created on JSFIDDLE
+
+#HTML
+<!doctype html>
+<html>
+
+  <head>
+    <title>HTML Demo</title>
+  </head>
+
+  <body>
+    <h1>
+      Welcome to Ruben's home page
+    </h1>
+    <hr>
+    <p>
+      I am on my way to become a great A.I. application developer.
+    </p>
+    <div>
+      I know a little bit of html, css and javascript.<br>
+      Check out the javascript I have written by clicking the button below.
+    </div><br>
+    <button onclick="hello()">
+      Preview
+    </button>
+    <hr>
+    <footer>
+      &copy; 2024 RubenLtech25@abcd.com
+    </footer>
+  </body>
+
+</html>
+
+#CSS
+body {
+  background-color: greenyellow
+}
+
+p {
+  font-family: arial;
+  font-size: 15px;
+  color: black;
+}
+
+div {
+  background-color: white;
+  width: 500px;
+  color: black;
+}
+
+#JavaScript
+function hello() {
+  alert("Hello how are you doing?");
+}
+
+function showtime() {
+  var now = new Date();
+  alert(now);
+}
